@@ -28,8 +28,8 @@ source-repository head
 
 library
     exposed-modules:     Data.Hashable.Generic
-    build-depends:       base >=4.5 && <4.7
-                       , hashable ==1.1.*
+    build-depends:       base >=4.5 && <4.9
+                       , hashable ==1.2.*
                        , ghc-prim
 
 test-suite tests
